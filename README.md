@@ -1,3 +1,12 @@
+# Custom Build - v1.3.1-DBC
+
+This branch adds a -DBC qualifier to the version to denotate that it
+tries to reproduce the same jar as being used by Databricks Cloud.
+
+It was built using the following command:
+
+`build/mvn -Dhadoop.version=1.2.1 -DskipTests clean package install`
+
 # Apache Spark
 
 Spark is a fast and general cluster computing system for Big Data. It provides
